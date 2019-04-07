@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04C15EA02259F8BA00724904 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C15E9F2259F8BA00724904 /* AppDelegate.swift */; };
+		04C15EA22259F8BA00724904 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C15EA12259F8BA00724904 /* ViewController.swift */; };
+		04C15EA52259F8BA00724904 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C15EA32259F8BA00724904 /* Main.storyboard */; };
+		04C15EA82259F8BA00724904 /* HamHamaIOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04C15EA62259F8BA00724904 /* HamHamaIOS.xcdatamodeld */; };
+		04C15EAA2259F8D200724904 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C15EA92259F8D200724904 /* Assets.xcassets */; };
+		04C15EAD2259F8D200724904 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C15EAB2259F8D200724904 /* LaunchScreen.storyboard */; };
+		04C15EB82259F8D300724904 /* HamHamaIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C15EB72259F8D300724904 /* HamHamaIOSTests.swift */; };
+		04C15EC32259F8D300724904 /* HamHamaIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C15EC22259F8D300724904 /* HamHamaIOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04C15EB42259F8D300724904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04C15E942259F8BA00724904 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04C15E9B2259F8BA00724904;
+			remoteInfo = HamHamaIOS;
+		};
+		04C15EBF2259F8D300724904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04C15E942259F8BA00724904 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04C15E9B2259F8BA00724904;
+			remoteInfo = HamHamaIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04C15E9C2259F8BA00724904 /* HamHamaIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HamHamaIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C15E9F2259F8BA00724904 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04C15EA12259F8BA00724904 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04C15EA42259F8BA00724904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04C15EA72259F8BA00724904 /* HamHamaIOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HamHamaIOS.xcdatamodel; sourceTree = "<group>"; };
+		04C15EA92259F8D200724904 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04C15EAC2259F8D200724904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04C15EAE2259F8D300724904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C15EB32259F8D300724904 /* HamHamaIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HamHamaIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C15EB72259F8D300724904 /* HamHamaIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamHamaIOSTests.swift; sourceTree = "<group>"; };
+		04C15EB92259F8D300724904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C15EBE2259F8D300724904 /* HamHamaIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HamHamaIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C15EC22259F8D300724904 /* HamHamaIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamHamaIOSUITests.swift; sourceTree = "<group>"; };
+		04C15EC42259F8D400724904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04C15E992259F8BA00724904 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C15EB02259F8D300724904 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C15EBB2259F8D300724904 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04C15E932259F8BA00724904 = {
+			isa = PBXGroup;
+			children = (
+				04C15E9E2259F8BA00724904 /* HamHamaIOS */,
+				04C15EB62259F8D300724904 /* HamHamaIOSTests */,
+				04C15EC12259F8D300724904 /* HamHamaIOSUITests */,
+				04C15E9D2259F8BA00724904 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04C15E9D2259F8BA00724904 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04C15E9C2259F8BA00724904 /* HamHamaIOS.app */,
+				04C15EB32259F8D300724904 /* HamHamaIOSTests.xctest */,
+				04C15EBE2259F8D300724904 /* HamHamaIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04C15E9E2259F8BA00724904 /* HamHamaIOS */ = {
+			isa = PBXGroup;
+			children = (
+				04C15E9F2259F8BA00724904 /* AppDelegate.swift */,
+				04C15EA12259F8BA00724904 /* ViewController.swift */,
+				04C15EA32259F8BA00724904 /* Main.storyboard */,
+				04C15EA92259F8D200724904 /* Assets.xcassets */,
+				04C15EAB2259F8D200724904 /* LaunchScreen.storyboard */,
+				04C15EAE2259F8D300724904 /* Info.plist */,
+				04C15EA62259F8BA00724904 /* HamHamaIOS.xcdatamodeld */,
+			);
+			path = HamHamaIOS;
+			sourceTree = "<group>";
+		};
+		04C15EB62259F8D300724904 /* HamHamaIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				04C15EB72259F8D300724904 /* HamHamaIOSTests.swift */,
+				04C15EB92259F8D300724904 /* Info.plist */,
+			);
+			path = HamHamaIOSTests;
+			sourceTree = "<group>";
+		};
+		04C15EC12259F8D300724904 /* HamHamaIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04C15EC22259F8D300724904 /* HamHamaIOSUITests.swift */,
+				04C15EC42259F8D400724904 /* Info.plist */,
+			);
+			path = HamHamaIOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04C15E9B2259F8BA00724904 /* HamHamaIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C15EC72259F8D400724904 /* Build configuration list for PBXNativeTarget "HamHamaIOS" */;
+			buildPhases = (
+				04C15E982259F8BA00724904 /* Sources */,
+				04C15E992259F8BA00724904 /* Frameworks */,
+				04C15E9A2259F8BA00724904 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HamHamaIOS;
+			productName = HamHamaIOS;
+			productReference = 04C15E9C2259F8BA00724904 /* HamHamaIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04C15EB22259F8D300724904 /* HamHamaIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C15ECA2259F8D400724904 /* Build configuration list for PBXNativeTarget "HamHamaIOSTests" */;
+			buildPhases = (
+				04C15EAF2259F8D300724904 /* Sources */,
+				04C15EB02259F8D300724904 /* Frameworks */,
+				04C15EB12259F8D300724904 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04C15EB52259F8D300724904 /* PBXTargetDependency */,
+			);
+			name = HamHamaIOSTests;
+			productName = HamHamaIOSTests;
+			productReference = 04C15EB32259F8D300724904 /* HamHamaIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04C15EBD2259F8D300724904 /* HamHamaIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C15ECD2259F8D400724904 /* Build configuration list for PBXNativeTarget "HamHamaIOSUITests" */;
+			buildPhases = (
+				04C15EBA2259F8D300724904 /* Sources */,
+				04C15EBB2259F8D300724904 /* Frameworks */,
+				04C15EBC2259F8D300724904 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04C15EC02259F8D300724904 /* PBXTargetDependency */,
+			);
+			name = HamHamaIOSUITests;
+			productName = HamHamaIOSUITests;
+			productReference = 04C15EBE2259F8D300724904 /* HamHamaIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04C15E942259F8BA00724904 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Mac;
+				TargetAttributes = {
+					04C15E9B2259F8BA00724904 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					04C15EB22259F8D300724904 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 04C15E9B2259F8BA00724904;
+					};
+					04C15EBD2259F8D300724904 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 04C15E9B2259F8BA00724904;
+					};
+				};
+			};
+			buildConfigurationList = 04C15E972259F8BA00724904 /* Build configuration list for PBXProject "HamHamaIOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04C15E932259F8BA00724904;
+			productRefGroup = 04C15E9D2259F8BA00724904 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04C15E9B2259F8BA00724904 /* HamHamaIOS */,
+				04C15EB22259F8D300724904 /* HamHamaIOSTests */,
+				04C15EBD2259F8D300724904 /* HamHamaIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04C15E9A2259F8BA00724904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C15EAD2259F8D200724904 /* LaunchScreen.storyboard in Resources */,
+				04C15EAA2259F8D200724904 /* Assets.xcassets in Resources */,
+				04C15EA52259F8BA00724904 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C15EB12259F8D300724904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C15EBC2259F8D300724904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04C15E982259F8BA00724904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C15EA22259F8BA00724904 /* ViewController.swift in Sources */,
+				04C15EA82259F8BA00724904 /* HamHamaIOS.xcdatamodeld in Sources */,
+				04C15EA02259F8BA00724904 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C15EAF2259F8D300724904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C15EB82259F8D300724904 /* HamHamaIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C15EBA2259F8D300724904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C15EC32259F8D300724904 /* HamHamaIOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04C15EB52259F8D300724904 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04C15E9B2259F8BA00724904 /* HamHamaIOS */;
+			targetProxy = 04C15EB42259F8D300724904 /* PBXContainerItemProxy */;
+		};
+		04C15EC02259F8D300724904 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04C15E9B2259F8BA00724904 /* HamHamaIOS */;
+			targetProxy = 04C15EBF2259F8D300724904 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04C15EA32259F8BA00724904 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04C15EA42259F8BA00724904 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04C15EAB2259F8D200724904 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04C15EAC2259F8D200724904 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04C15EC52259F8D400724904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04C15EC62259F8D400724904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04C15EC82259F8D400724904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HamHamaIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lina.projects.HamHamaIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04C15EC92259F8D400724904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HamHamaIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lina.projects.HamHamaIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04C15ECB2259F8D400724904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HamHamaIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lina.projects.HamHamaIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HamHamaIOS.app/HamHamaIOS";
+			};
+			name = Debug;
+		};
+		04C15ECC2259F8D400724904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HamHamaIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lina.projects.HamHamaIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HamHamaIOS.app/HamHamaIOS";
+			};
+			name = Release;
+		};
+		04C15ECE2259F8D400724904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HamHamaIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lina.projects.HamHamaIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HamHamaIOS;
+			};
+			name = Debug;
+		};
+		04C15ECF2259F8D400724904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HamHamaIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lina.projects.HamHamaIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HamHamaIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04C15E972259F8BA00724904 /* Build configuration list for PBXProject "HamHamaIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C15EC52259F8D400724904 /* Debug */,
+				04C15EC62259F8D400724904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C15EC72259F8D400724904 /* Build configuration list for PBXNativeTarget "HamHamaIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C15EC82259F8D400724904 /* Debug */,
+				04C15EC92259F8D400724904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C15ECA2259F8D400724904 /* Build configuration list for PBXNativeTarget "HamHamaIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C15ECB2259F8D400724904 /* Debug */,
+				04C15ECC2259F8D400724904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C15ECD2259F8D400724904 /* Build configuration list for PBXNativeTarget "HamHamaIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C15ECE2259F8D400724904 /* Debug */,
+				04C15ECF2259F8D400724904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04C15EA62259F8BA00724904 /* HamHamaIOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04C15EA72259F8BA00724904 /* HamHamaIOS.xcdatamodel */,
+			);
+			currentVersion = 04C15EA72259F8BA00724904 /* HamHamaIOS.xcdatamodel */;
+			path = HamHamaIOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04C15E942259F8BA00724904 /* Project object */;
+}

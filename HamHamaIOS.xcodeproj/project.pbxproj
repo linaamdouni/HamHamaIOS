@@ -7,14 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04051CAB226B905A00DBF42B /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04051CAA226B905A00DBF42B /* HomeController.swift */; };
+		04051CAD226BB4A700DBF42B /* BestRecipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04051CAC226BB4A700DBF42B /* BestRecipes.swift */; };
+		04051CB1226BC64900DBF42B /* DetailsRecTabCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04051CB0226BC64900DBF42B /* DetailsRecTabCellTableViewCell.swift */; };
+		04051CB5226BD0FE00DBF42B /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04051CB4226BD0FE00DBF42B /* Ingredient.swift */; };
+		04051CB9226BD5D700DBF42B /* RecetteDetailsYoutube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04051CB8226BD5D700DBF42B /* RecetteDetailsYoutube.swift */; };
+		04051CBB226CA93500DBF42B /* AddRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04051CBA226CA93500DBF42B /* AddRecipe.swift */; };
+		045607EE225CD51D00239B5E /* credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 045607ED225CD51D00239B5E /* credentials.plist */; };
+		045607FA225EAE6900239B5E /* Assets copie 2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045607F9225EAE6900239B5E /* Assets copie 2.xcassets */; };
+		0456082E2263C76F00239B5E /* HomeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456082D2263C76F00239B5E /* HomeList.swift */; };
+		045608302263CECB00239B5E /* CellHomeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456082F2263CECB00239B5E /* CellHomeList.swift */; };
+		045608322263EFDD00239B5E /* Recette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045608312263EFDD00239B5E /* Recette.swift */; };
+		045608362264033B00239B5E /* RecetteDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045608352264033B00239B5E /* RecetteDetails.swift */; };
+		04753F55226E5E0A00141573 /* checkBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04753F54226E5E0900141573 /* checkBox.swift */; };
+		04753F58226E680900141573 /* checkBox2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04753F57226E680900141573 /* checkBox2.swift */; };
+		04753F5A226E681700141573 /* checkBox3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04753F59226E681700141573 /* checkBox3.swift */; };
+		04753F5C226E682900141573 /* checkBox4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04753F5B226E682900141573 /* checkBox4.swift */; };
+		047AB545227148F300670718 /* add.json in Resources */ = {isa = PBXBuildFile; fileRef = 047AB543227148F200670718 /* add.json */; };
 		04C15EA02259F8BA00724904 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C15E9F2259F8BA00724904 /* AppDelegate.swift */; };
 		04C15EA22259F8BA00724904 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C15EA12259F8BA00724904 /* ViewController.swift */; };
 		04C15EA52259F8BA00724904 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C15EA32259F8BA00724904 /* Main.storyboard */; };
 		04C15EA82259F8BA00724904 /* HamHamaIOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04C15EA62259F8BA00724904 /* HamHamaIOS.xcdatamodeld */; };
-		04C15EAA2259F8D200724904 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C15EA92259F8D200724904 /* Assets.xcassets */; };
 		04C15EAD2259F8D200724904 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C15EAB2259F8D200724904 /* LaunchScreen.storyboard */; };
 		04C15EB82259F8D300724904 /* HamHamaIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C15EB72259F8D300724904 /* HamHamaIOSTests.swift */; };
 		04C15EC32259F8D300724904 /* HamHamaIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C15EC22259F8D300724904 /* HamHamaIOSUITests.swift */; };
+		04C15ED22259F94B00724904 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C15ED02259F94B00724904 /* FBSDKLoginKit.framework */; };
+		04C15ED32259F94B00724904 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C15ED12259F94B00724904 /* FBSDKCoreKit.framework */; };
+		42C5C6737543B2DA00EA7ED8 /* Pods_HamHamaIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 316ECDD9BA270F718DF76819 /* Pods_HamHamaIOSTests.framework */; };
+		70BDC22EDAD8D6212FCD0AE6 /* Pods_HamHamaIOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5DD769308F1FF0EA4BA00A2 /* Pods_HamHamaIOSUITests.framework */; };
+		FB6E4ED6E83F89B1C921D298 /* Pods_HamHamaIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4F340E3C13987C84E4A2C0 /* Pods_HamHamaIOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +56,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04051CAA226B905A00DBF42B /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		04051CAC226BB4A700DBF42B /* BestRecipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestRecipes.swift; sourceTree = "<group>"; };
+		04051CB0226BC64900DBF42B /* DetailsRecTabCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsRecTabCellTableViewCell.swift; sourceTree = "<group>"; };
+		04051CB4226BD0FE00DBF42B /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		04051CB8226BD5D700DBF42B /* RecetteDetailsYoutube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecetteDetailsYoutube.swift; sourceTree = "<group>"; };
+		04051CBA226CA93500DBF42B /* AddRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecipe.swift; sourceTree = "<group>"; };
+		045607ED225CD51D00239B5E /* credentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = credentials.plist; path = ../../../../Downloads/credentials.plist; sourceTree = "<group>"; };
+		045607F9225EAE6900239B5E /* Assets copie 2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Assets copie 2.xcassets"; path = "../../CoreDataWSNadeje/CoreDataWSNadeje/Assets copie 2.xcassets"; sourceTree = "<group>"; };
+		0456082D2263C76F00239B5E /* HomeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeList.swift; sourceTree = "<group>"; };
+		0456082F2263CECB00239B5E /* CellHomeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellHomeList.swift; sourceTree = "<group>"; };
+		045608312263EFDD00239B5E /* Recette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recette.swift; sourceTree = "<group>"; };
+		045608352264033B00239B5E /* RecetteDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecetteDetails.swift; sourceTree = "<group>"; };
+		04753F54226E5E0900141573 /* checkBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = checkBox.swift; path = ../checkBox.swift; sourceTree = "<group>"; };
+		04753F57226E680900141573 /* checkBox2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkBox2.swift; sourceTree = "<group>"; };
+		04753F59226E681700141573 /* checkBox3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkBox3.swift; sourceTree = "<group>"; };
+		04753F5B226E682900141573 /* checkBox4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkBox4.swift; sourceTree = "<group>"; };
+		047AB543227148F200670718 /* add.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = add.json; path = ../../../../Downloads/AE_JSON/add.json; sourceTree = "<group>"; };
 		04C15E9C2259F8BA00724904 /* HamHamaIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HamHamaIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C15E9F2259F8BA00724904 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04C15EA12259F8BA00724904 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04C15EA42259F8BA00724904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04C15EA72259F8BA00724904 /* HamHamaIOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HamHamaIOS.xcdatamodel; sourceTree = "<group>"; };
-		04C15EA92259F8D200724904 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04C15EAC2259F8D200724904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04C15EAE2259F8D300724904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04C15EB32259F8D300724904 /* HamHamaIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HamHamaIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +86,18 @@
 		04C15EBE2259F8D300724904 /* HamHamaIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HamHamaIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C15EC22259F8D300724904 /* HamHamaIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamHamaIOSUITests.swift; sourceTree = "<group>"; };
 		04C15EC42259F8D400724904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C15ED02259F94B00724904 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../../../Downloads/FacebookSDKs-iOS-4.40.0/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		04C15ED12259F94B00724904 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../../../Downloads/FacebookSDKs-iOS-4.40.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		04C15ED42259F95D00724904 /* HamHamaIOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HamHamaIOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		156B5C075363F817785D3EAB /* Pods-HamHamaIOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HamHamaIOSUITests.release.xcconfig"; path = "Target Support Files/Pods-HamHamaIOSUITests/Pods-HamHamaIOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		316ECDD9BA270F718DF76819 /* Pods_HamHamaIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HamHamaIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C395CE29C1CEADE58ADFDBC /* Pods-HamHamaIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HamHamaIOSTests.release.xcconfig"; path = "Target Support Files/Pods-HamHamaIOSTests/Pods-HamHamaIOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		40B232CA34F63ABC7DB4B1E4 /* Pods-HamHamaIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HamHamaIOS.release.xcconfig"; path = "Target Support Files/Pods-HamHamaIOS/Pods-HamHamaIOS.release.xcconfig"; sourceTree = "<group>"; };
+		C1A61F117F4FA8946067BBBD /* Pods-HamHamaIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HamHamaIOS.debug.xcconfig"; path = "Target Support Files/Pods-HamHamaIOS/Pods-HamHamaIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		CE4F340E3C13987C84E4A2C0 /* Pods_HamHamaIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HamHamaIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE9251CB0C626BF90F04E07 /* Pods-HamHamaIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HamHamaIOSTests.debug.xcconfig"; path = "Target Support Files/Pods-HamHamaIOSTests/Pods-HamHamaIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E5DD769308F1FF0EA4BA00A2 /* Pods_HamHamaIOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HamHamaIOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6B07873B5331C7EFDF2DD41 /* Pods-HamHamaIOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HamHamaIOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-HamHamaIOSUITests/Pods-HamHamaIOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +105,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C15ED22259F94B00724904 /* FBSDKLoginKit.framework in Frameworks */,
+				04C15ED32259F94B00724904 /* FBSDKCoreKit.framework in Frameworks */,
+				FB6E4ED6E83F89B1C921D298 /* Pods_HamHamaIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42C5C6737543B2DA00EA7ED8 /* Pods_HamHamaIOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +123,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70BDC22EDAD8D6212FCD0AE6 /* Pods_HamHamaIOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04753F56226E67E000141573 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				04753F54226E5E0900141573 /* checkBox.swift */,
+				04753F57226E680900141573 /* checkBox2.swift */,
+				04753F59226E681700141573 /* checkBox3.swift */,
+				04753F5B226E682900141573 /* checkBox4.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		04C15E932259F8BA00724904 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +148,8 @@
 				04C15EB62259F8D300724904 /* HamHamaIOSTests */,
 				04C15EC12259F8D300724904 /* HamHamaIOSUITests */,
 				04C15E9D2259F8BA00724904 /* Products */,
+				B5A0504DB37CE6CAF452A94E /* Pods */,
+				08539C983BE607BD2735DAF3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +166,29 @@
 		04C15E9E2259F8BA00724904 /* HamHamaIOS */ = {
 			isa = PBXGroup;
 			children = (
+				047AB543227148F200670718 /* add.json */,
+				04753F56226E67E000141573 /* New Group */,
 				04C15E9F2259F8BA00724904 /* AppDelegate.swift */,
 				04C15EA12259F8BA00724904 /* ViewController.swift */,
 				04C15EA32259F8BA00724904 /* Main.storyboard */,
-				04C15EA92259F8D200724904 /* Assets.xcassets */,
 				04C15EAB2259F8D200724904 /* LaunchScreen.storyboard */,
+				045607F9225EAE6900239B5E /* Assets copie 2.xcassets */,
 				04C15EAE2259F8D300724904 /* Info.plist */,
 				04C15EA62259F8BA00724904 /* HamHamaIOS.xcdatamodeld */,
+				04C15ED12259F94B00724904 /* FBSDKCoreKit.framework */,
+				04C15ED02259F94B00724904 /* FBSDKLoginKit.framework */,
+				04C15ED42259F95D00724904 /* HamHamaIOS-Bridging-Header.h */,
+				045607ED225CD51D00239B5E /* credentials.plist */,
+				0456082D2263C76F00239B5E /* HomeList.swift */,
+				0456082F2263CECB00239B5E /* CellHomeList.swift */,
+				045608312263EFDD00239B5E /* Recette.swift */,
+				045608352264033B00239B5E /* RecetteDetails.swift */,
+				04051CAA226B905A00DBF42B /* HomeController.swift */,
+				04051CAC226BB4A700DBF42B /* BestRecipes.swift */,
+				04051CB0226BC64900DBF42B /* DetailsRecTabCellTableViewCell.swift */,
+				04051CB4226BD0FE00DBF42B /* Ingredient.swift */,
+				04051CB8226BD5D700DBF42B /* RecetteDetailsYoutube.swift */,
+				04051CBA226CA93500DBF42B /* AddRecipe.swift */,
 			);
 			path = HamHamaIOS;
 			sourceTree = "<group>";
@@ -128,6 +211,29 @@
 			path = HamHamaIOSUITests;
 			sourceTree = "<group>";
 		};
+		08539C983BE607BD2735DAF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE4F340E3C13987C84E4A2C0 /* Pods_HamHamaIOS.framework */,
+				316ECDD9BA270F718DF76819 /* Pods_HamHamaIOSTests.framework */,
+				E5DD769308F1FF0EA4BA00A2 /* Pods_HamHamaIOSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5A0504DB37CE6CAF452A94E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1A61F117F4FA8946067BBBD /* Pods-HamHamaIOS.debug.xcconfig */,
+				40B232CA34F63ABC7DB4B1E4 /* Pods-HamHamaIOS.release.xcconfig */,
+				CFE9251CB0C626BF90F04E07 /* Pods-HamHamaIOSTests.debug.xcconfig */,
+				3C395CE29C1CEADE58ADFDBC /* Pods-HamHamaIOSTests.release.xcconfig */,
+				E6B07873B5331C7EFDF2DD41 /* Pods-HamHamaIOSUITests.debug.xcconfig */,
+				156B5C075363F817785D3EAB /* Pods-HamHamaIOSUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +241,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04C15EC72259F8D400724904 /* Build configuration list for PBXNativeTarget "HamHamaIOS" */;
 			buildPhases = (
+				1A5787621D32BD663D7B5F35 /* [CP] Check Pods Manifest.lock */,
 				04C15E982259F8BA00724904 /* Sources */,
 				04C15E992259F8BA00724904 /* Frameworks */,
 				04C15E9A2259F8BA00724904 /* Resources */,
+				2E8729092944E4CA66CB8C2A /* [CP] Embed Pods Frameworks */,
+				2943BB0532BA1E79306B415E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +261,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04C15ECA2259F8D400724904 /* Build configuration list for PBXNativeTarget "HamHamaIOSTests" */;
 			buildPhases = (
+				20D7B587E136020A4023AE0C /* [CP] Check Pods Manifest.lock */,
 				04C15EAF2259F8D300724904 /* Sources */,
 				04C15EB02259F8D300724904 /* Frameworks */,
 				04C15EB12259F8D300724904 /* Resources */,
@@ -170,6 +280,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04C15ECD2259F8D400724904 /* Build configuration list for PBXNativeTarget "HamHamaIOSUITests" */;
 			buildPhases = (
+				82779986DE3113D3A88DCAF9 /* [CP] Check Pods Manifest.lock */,
 				04C15EBA2259F8D300724904 /* Sources */,
 				04C15EBB2259F8D300724904 /* Frameworks */,
 				04C15EBC2259F8D300724904 /* Resources */,
@@ -196,6 +307,7 @@
 				TargetAttributes = {
 					04C15E9B2259F8BA00724904 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					04C15EB22259F8D300724904 = {
 						CreatedOnToolsVersion = 10.1;
@@ -233,8 +345,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				04C15EAD2259F8D200724904 /* LaunchScreen.storyboard in Resources */,
-				04C15EAA2259F8D200724904 /* Assets.xcassets in Resources */,
+				045607EE225CD51D00239B5E /* credentials.plist in Resources */,
+				045607FA225EAE6900239B5E /* Assets copie 2.xcassets in Resources */,
 				04C15EA52259F8BA00724904 /* Main.storyboard in Resources */,
+				047AB545227148F300670718 /* add.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +368,161 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A5787621D32BD663D7B5F35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HamHamaIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20D7B587E136020A4023AE0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HamHamaIOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2943BB0532BA1E79306B415E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HamHamaIOS/Pods-HamHamaIOS-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HamHamaIOS/Pods-HamHamaIOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E8729092944E4CA66CB8C2A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HamHamaIOS/Pods-HamHamaIOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/Floaty/Floaty.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Floaty.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HamHamaIOS/Pods-HamHamaIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82779986DE3113D3A88DCAF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HamHamaIOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04C15E982259F8BA00724904 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				04C15EA22259F8BA00724904 /* ViewController.swift in Sources */,
+				04051CB9226BD5D700DBF42B /* RecetteDetailsYoutube.swift in Sources */,
+				04753F5C226E682900141573 /* checkBox4.swift in Sources */,
+				04051CAD226BB4A700DBF42B /* BestRecipes.swift in Sources */,
+				04753F58226E680900141573 /* checkBox2.swift in Sources */,
+				04753F5A226E681700141573 /* checkBox3.swift in Sources */,
+				045608362264033B00239B5E /* RecetteDetails.swift in Sources */,
+				04753F55226E5E0A00141573 /* checkBox.swift in Sources */,
 				04C15EA82259F8BA00724904 /* HamHamaIOS.xcdatamodeld in Sources */,
+				04051CBB226CA93500DBF42B /* AddRecipe.swift in Sources */,
+				045608322263EFDD00239B5E /* Recette.swift in Sources */,
+				04051CAB226B905A00DBF42B /* HomeController.swift in Sources */,
+				0456082E2263C76F00239B5E /* HomeList.swift in Sources */,
+				04051CB1226BC64900DBF42B /* DetailsRecTabCellTableViewCell.swift in Sources */,
+				045608302263CECB00239B5E /* CellHomeList.swift in Sources */,
 				04C15EA02259F8BA00724904 /* AppDelegate.swift in Sources */,
+				04051CB5226BD0FE00DBF42B /* Ingredient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,8 +695,10 @@
 		};
 		04C15EC82259F8D400724904 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1A61F117F4FA8946067BBBD /* Pods-HamHamaIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HamHamaIOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -444,6 +707,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = lina.projects.HamHamaIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HamHamaIOS/HamHamaIOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -451,8 +716,10 @@
 		};
 		04C15EC92259F8D400724904 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40B232CA34F63ABC7DB4B1E4 /* Pods-HamHamaIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HamHamaIOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -461,6 +728,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = lina.projects.HamHamaIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HamHamaIOS/HamHamaIOS-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -468,6 +736,7 @@
 		};
 		04C15ECB2259F8D400724904 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFE9251CB0C626BF90F04E07 /* Pods-HamHamaIOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +757,7 @@
 		};
 		04C15ECC2259F8D400724904 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C395CE29C1CEADE58ADFDBC /* Pods-HamHamaIOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +778,7 @@
 		};
 		04C15ECE2259F8D400724904 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6B07873B5331C7EFDF2DD41 /* Pods-HamHamaIOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +798,7 @@
 		};
 		04C15ECF2259F8D400724904 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 156B5C075363F817785D3EAB /* Pods-HamHamaIOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

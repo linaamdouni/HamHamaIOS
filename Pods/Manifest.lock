@@ -1,0 +1,102 @@
+PODS:
+  - Alamofire (4.8.2)
+  - AlamofireImage (3.5.2):
+    - Alamofire (~> 4.8)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - FacebookCore (0.6.0):
+    - Bolts (~> 1.9)
+    - FBSDKCoreKit (~> 4.43)
+  - FacebookLogin (0.6.0):
+    - Bolts (~> 1.9)
+    - FacebookCore (~> 0.5)
+    - FBSDKCoreKit (~> 4.43)
+    - FBSDKLoginKit (~> 4.43)
+  - FBSDKCoreKit (4.44.0):
+    - Bolts (~> 1.9)
+  - FBSDKLoginKit (4.44.0):
+    - FBSDKCoreKit
+  - FirebaseAnalytics (3.9.0):
+    - FirebaseCore (~> 3.6)
+    - FirebaseInstanceID (~> 1.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseCore (3.6.0):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseInstanceID (1.0.10):
+    - FirebaseCore (~> 3.6)
+  - Floaty (4.1.0)
+  - Google (3.1.0):
+    - Google/Core (= 3.1.0)
+  - Google/Core (3.1.0):
+    - FirebaseAnalytics (~> 3.2)
+  - GoogleSignIn (4.4.0):
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.2.0):
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+  - GoogleToolboxForMac/Defines (2.2.0)
+  - "GoogleToolboxForMac/NSData+zlib (2.2.0)":
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.2.0)":
+    - GoogleToolboxForMac/DebugUtils (= 2.2.0)
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.2.0)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.2.0)"
+  - GTMSessionFetcher/Core (1.2.1)
+  - lottie-ios (3.0.3)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - FacebookCore
+  - FacebookLogin
+  - Floaty
+  - Google
+  - GoogleSignIn
+  - lottie-ios
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireImage
+    - Bolts
+    - FacebookCore
+    - FacebookLogin
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseInstanceID
+    - Floaty
+    - Google
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GTMSessionFetcher
+    - lottie-ios
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  AlamofireImage: 63cfe3baf1370be6c498149687cf6db3e3b00999
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  FacebookCore: 38cd3a4078738d6f648eb9b6b9d35b02d693e9a1
+  FacebookLogin: 658b0569961a081a0890f5f4dbf69ced00657d9e
+  FBSDKCoreKit: 8bcd4503afe43f28823c2175a6142a7f50f1bf28
+  FBSDKLoginKit: 93c5a407ab1a6a17b1b38cff57e89991f714d878
+  FirebaseAnalytics: e5fe8486efc01bec33f6bf82e2fa9fce4b124052
+  FirebaseCore: 9691ee2ade70c098d7cf92440f4303f16d83ca75
+  FirebaseInstanceID: b9eedd6846fb5e1f0f7279e1deaa7a7e4cf8392e
+  Floaty: 1a4e213f3512cf3045ef9cb0c1ff456226d1f66a
+  Google: 98da4b1a60ed0beb80a290387a28333406a1eb90
+  GoogleSignIn: 7ff245e1a7b26d379099d3243a562f5747e23d39
+  GoogleToolboxForMac: ff31605b7d66400dcec09bed5861689aebadda4d
+  GTMSessionFetcher: 32aeca0aa144acea523e1c8e053089dec2cb98ca
+  lottie-ios: 06e0b54aab85ba128e332687d7f4ac4861a7a7ae
+
+PODFILE CHECKSUM: ee2b24b2849b7ed48e5b27c41a6081768cc2f71d
+
+COCOAPODS: 1.6.1
